@@ -30,6 +30,10 @@ An initial [hardware](https://github.com/benduncan/wilky-the-whale-ui/blob/maste
 
 The info about the various hardware components are collated into a [spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vS0axL6-YYMyzx2jE6wDurdhn4YheI0SrInnZA-kYepqKk4lEPqnQZkQgBLEOZMwNYaRXz1ZH2DWHhn/pubhtml). The hardware for initial prototype will cost about $350 and will be assembled and tested in the coming weeks.
 
+# Hardware Schematic
+
+![Hardware Schematic](assets/images/schematic.png)
+
 # Next Steps
 
 Aiming to crowdfund the initial deployment in Peregian Beach, Queensland and deploy the first device August 2019, in time to catch the last month of the whale season. The fixture will be available each whale season, from July through to late October. Additional deployments are scheduled for Noosa and other Sunshine Coast beaches in 2020.
