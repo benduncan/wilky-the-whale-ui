@@ -1,4 +1,4 @@
-![Logo](wilky-logo.png)
+![Logo](assets/images/wilky-logo.png)
 
 # Wilky the Whale
 
