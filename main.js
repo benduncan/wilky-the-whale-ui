@@ -3,7 +3,8 @@ $(function() {
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 13,
     center: peregian,
-    disableDefaultUI: true
+    disableDefaultUI: true,
+    scrollwheel: false
   });
 
   var getUrl = window.location;
