@@ -12,19 +12,23 @@ Enhancing community engagement with whales and our ocean environment. Using publ
 
 View the submission video at [Govhack 2019 submission](https://benduncan.github.io/wilky-the-whale-ui/assets/video/govhack-submission.m4v)
 
-# App portal
+# App Portal
 
 A demo instance of the [Wilky user-interface](https://benduncan.github.io/wilky-the-whale-ui/) is intended primarily for a interactive terminal installation not far from the main beach (e.g. town square). The installation will consist of an iPad mounted on a stand, which is accessible to the public to view and see in realtime whale sounds off the coast, and access QLD government and CSIRO data on ocean metrics.
 
 ![UI interface](assets/images/ui-screenshot.jpg)
 
-# Slide deck
+# Slide Deck
 
 A [slide](https://github.com/benduncan/wilky-the-whale-ui/blob/master/govhack-assets/wilky%20-%20GOVHACK%20NOOSA.pdf) for overview or video
 
-# Hardware planning
+# Hardware Planning
 
 An initial [hardware](https://github.com/benduncan/wilky-the-whale-ui/blob/master/govhack-assets/hardware-planmning.md) planning document
+
+# Hardware Spreadsheet
+
+The info about the various hardware components are collated into a [spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vS0axL6-YYMyzx2jE6wDurdhn4YheI0SrInnZA-kYepqKk4lEPqnQZkQgBLEOZMwNYaRXz1ZH2DWHhn/pubhtml). The hardware for initial prototype will cost about $350 and will be assembled and tested in the coming weeks.
 
 # Next Steps
 
