@@ -10,15 +10,15 @@ Enhancing community engagement with whales and our ocean environment. Using publ
 
 # Video
 
-View the submission video at [Govhack 2019 final submission](https://benduncan.github.io/wilky-the-whale-ui/assets/video/govhack-submission-final.m4v)
+View the submission video on Youtube:
+
+[https://www.youtube.com/watch?v=hnx5YkQTlTo&feature=youtu.be](https://www.youtube.com/watch?v=hnx5YkQTlTo&feature=youtu.be)
 
 # API Datasets
 
 Wilky uses various Govhack datasets to power the user-interface (WIP)
 
 ![API](assets/images/ui-api-screenshot.jpg)
-
-
 
 # App Portal
 
