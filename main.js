@@ -76,7 +76,7 @@ $(function() {
             barGap: null // the optional spacing between bars of the wave, if not provided will be calculated in legacy format
           });
 
-          wavesurfer.load("/assets/audio/whale_song_1.mp3");
+          wavesurfer.load("assets/audio/whale_song_1.mp3");
 
           wavesurfer.on("ready", function() {
             wavesurfer.play();
