@@ -8,11 +8,10 @@ enhancing community engagement with whales and their environment
 
 
 # App portal
-A demo instance of the portal can be veiwed at https://benduncan.github.io/wilky-the-whale-ui/
-It is intended primarily for a interactive terminal installation not far from the main beach (e.g. town square)
+A demo instance of the [portal](https://benduncan.github.io/wilky-the-whale-ui/) is intended primarily for a interactive terminal installation not far from the main beach (e.g. town square)
 
 # Slide deck
-https://github.com/benduncan/wilky-the-whale-ui/blob/master/govhack-assets/wilky%20-%20GOVHACK%20NOOSA.pdf
+A [slide](https://github.com/benduncan/wilky-the-whale-ui/blob/master/govhack-assets/wilky%20-%20GOVHACK%20NOOSA.pdf) for overview or video
 
 # Hardware planning
-https://github.com/benduncan/wilky-the-whale-ui/blob/master/govhack-assets/hardware-planmning.md 
+An initial [hardware](https://github.com/benduncan/wilky-the-whale-ui/blob/master/govhack-assets/hardware-planmning.md) planning document
