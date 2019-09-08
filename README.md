@@ -10,7 +10,7 @@ Enhancing community engagement with whales and our ocean environment. Using publ
 
 # Video
 
-View the submission video at [Govhack 2019 submission](https://benduncan.github.io/wilky-the-whale-ui/assets/video/govhack-submission.m4v)
+View the submission video at [Govhack 2019 final submission](https://benduncan.github.io/wilky-the-whale-ui/assets/video/final-submission.mp4)
 
 # App portal
 
