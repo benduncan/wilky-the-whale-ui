@@ -6,7 +6,11 @@ $(function() {
     disableDefaultUI: true
   });
 
-  var iconBase = "http://localhost:8888/";
+  var getUrl = window.location;
+  var baseUrl =
+    getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split("/")[1];
+
+  var iconBase = baseUrl;
 
   var icons = {
     whale: {
