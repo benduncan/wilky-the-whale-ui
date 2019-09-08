@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8" />
+    <title>Info Windows</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="simplegrid.css" />
+    <link rel="stylesheet" href="snazzy-info-window.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/assets/js/wavesurfer.js"></script>
+
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="menu">
+      
+        <img src="header-stats.png"/>
+        
+    </div>
+
+    <div class="content avatar">
+        <div class="image-wrapper">
+          <div class="image"></div>
+          <div class="flare f-anim1"></div>
+          <div class="flare f-anim2"></div>
+          <div class="flare f-anim3"></div>
+        </div>
+      </div>
+      <svg width="1000" height="500" id="radar"></svg>
+      
+    <style>
+
+#menu
+{
+  position: absolute;
+    top: 5%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -5%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+}
+    </style>
+
+    <!--
+  ?key=AIzaSyAdjkJj42mTVBzvzs7jnm7KcABJxLMzXx4
+-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdjkJj42mTVBzvzs7jnm7KcABJxLMzXx4"></script>
+
+    <script src="snazzy-info-window.min.js"></script>
+    <script src="main.js"></script>
+
+    <div id="content_window" style="">
+      <div class="grid grid-pad">
+        <div class="col-1-1">
+          <div class="content">
+        
+              
+                <video  onclick="this.play()" width="650" id="video" autoplay loop playsinline muted>
+                
+                <source src="/assets/video/wilky.mp4" type="video/mp4" muted></source>
+                </video> 
+
+            
+          </div>
+        </div>
+        <hr />
+        <div class="col-1-2">
+          <div class="content">
+            <b>Detected</b>: 23mins ago<br />
+            <b>Location</b>: Peregian Beach<br />
+            <b>Distance</b>: Approx 900m offshore</b>
+            <p>
+              The humpback whale is a species of baleen
+              whale. Adults range in length
+              from 12–16 m and weigh around 25–30 metric tons. Males produce a complex song
+              lasting 10 to 20 minutes, which they repeat for hours at a time.
+              All the males in a group will produce the same song which is
+              different each season
+            </p>
+          </div>
+        </div>
+        <div class="col-1-2">
+          <div class="content">
+            <img src="stats.png" width="250" />
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="col-1-1">
+
+            <div id="waveform"></div>
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

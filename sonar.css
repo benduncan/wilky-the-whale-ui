@@ -1,0 +1,146 @@
+body, html{
+	height:100%;
+	width:100%;
+}
+.image-wrapper{
+	
+	.image{
+		border-radius:300px;
+		position:relative;
+		z-index:1;
+	}
+	.flare{
+		position:absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		top:50%;
+		transform:translate(0, -50%) scale(1);
+		background:#708dda;
+		border-radius:300px;
+		z-index:0;
+		
+	}
+	
+	.f-anim1{
+		transform:translate(0, -50%) scale(0);
+		animation:flareScale 1.8s .5s infinite ease-out;
+	}
+	
+	.f-anim2{
+		transform:translate(0, -50%) scale(0);
+		animation:flareScale 1.8s infinite ease-out;
+	}
+	
+	.f-anim3{
+		transform:translate(0, -50%) scale(0);
+		animation:flareScaleBig 1.8s infinite ease-out;
+	}
+}
+
+#radar{
+	width:100%;
+	height:100%;
+
+}
+
+.bg{
+	background: radial-gradient(#273c91, #132054);
+	background: -webkit-radial-gradient(#273c91, #132054);
+	width:100%;
+	height:100%;
+}
+
+.bullet-opacity-1{
+		animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.bullet-opacity-2{
+		animation-name: opacity;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.bullet-opacity-3{
+		animation-name: opacity;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.bullet-opacity-4{
+		animation-name: opacity;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.line-1{
+		animation-name: rotate;
+    animation-duration: 9.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.line-2{
+	animation-name: rotate;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.line-3{
+	animation-name: rotate;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.content{
+	position:absolute;
+	top:0;
+	left:0;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	width:100%;
+	height:100%;
+}
+
+@keyframes rotate {
+    0%   {transform: rotate(0deg) scale(1);}
+		50% {transform: rotate(180deg) scale(.95);}
+    100% {transform: rotate(360deg) scale(1);}
+}
+
+@keyframes opacity {
+    0%   {opacity: 1;}
+    50% {opacity: .7;}
+		100% {opacity: 1;}
+}
+
+@keyframes flareScale {
+	0%{
+	 transform:translate(0, -50%) scale(.3);
+	}
+	100%{
+		transform:translate(0, -50%) scale(1.6);
+		opacity:0;
+	}
+}
+
+@keyframes flareScaleBig {
+	0%{
+	 transform:translate(0, -50%) scale(.3);
+		opacity:.5;
+	}
+	100%{
+		transform:translate(0, -50%) scale(3);
+		opacity:0;
+	}
+}
