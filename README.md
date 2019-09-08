@@ -12,7 +12,7 @@ Enhancing community engagement with whales and our ocean environment. Using publ
 
 View the submission video on Youtube:
 
-[https://www.youtube.com/watch?v=hnx5YkQTlTo&feature=youtu.be](https://www.youtube.com/watch?v=hnx5YkQTlTo&feature=youtu.be)
+[https://www.youtube.com/watch?v=yqJ98tkXHGo&feature=youtu.be](https://www.youtube.com/watch?v=yqJ98tkXHGo&feature=youtu.be)
 
 # API Datasets
 
