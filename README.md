@@ -10,7 +10,7 @@ Enhancing community engagement with whales and our ocean environment. Using publ
 
 # Video
 
-View the submission video at [Govhack 2019 final submission](https://benduncan.github.io/wilky-the-whale-ui/assets/video/final-submission.mp4)
+View the submission video at [Govhack 2019 final submission](https://benduncan.github.io/wilky-the-whale-ui/assets/video/govhack-submission-final.m4v)
 
 # App Portal
 
@@ -28,8 +28,18 @@ An initial [hardware](https://github.com/benduncan/wilky-the-whale-ui/blob/maste
 
 # Hardware Spreadsheet
 
-The info about the various hardware components are collated into a [spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vS0axL6-YYMyzx2jE6wDurdhn4YheI0SrInnZA-kYepqKk4lEPqnQZkQgBLEOZMwNYaRXz1ZH2DWHhn/pubhtml). The hardware for initial prototype will cost about $350 and will be assembled and tested in the coming weeks.
+The info about the various hardware components are collated into a [spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vS0axL6-YYMyzx2jE6wDurdhn4YheI0SrInnZA-kYepqKk4lEPqnQZkQgBLEOZMwNYaRXz1ZH2DWHhn/pubhtml). The hardware for initial prototype will cost about \$350 and will be assembled and tested in the coming weeks.
 
 # Next Steps
 
 Aiming to crowdfund the initial deployment in Peregian Beach, Queensland and deploy the first device August 2019, in time to catch the last month of the whale season. The fixture will be available each whale season, from July through to late October. Additional deployments are scheduled for Noosa and other Sunshine Coast beaches in 2020.
+
+# Team
+
+![Team shot Govhack 2019](assets/images/team.jpg)
+
+Gohack 2019, Peregian Beach team for `Project Wilky`
+
+- Max Diamond
+- Marco Grigull
+- [Ben Duncan](https://twitter.com/ben_colo)
