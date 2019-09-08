@@ -46,6 +46,8 @@ $(function() {
 
     var popupContent = $("DIV#content_window");
 
+    var wavesurfer;
+
     var infoWindow = new SnazzyInfoWindow({
       marker: marker,
 
@@ -74,7 +76,10 @@ $(function() {
           $("DIV#menu").hide();
           console.log("OPEN!");
 
-          var wavesurfer = WaveSurfer.create({
+          var progressDiv = document.querySelector("#progress");
+          var progressBar = progressDiv.querySelector(".progress-bar");
+
+          wavesurfer = WaveSurfer.create({
             container: document.querySelector("#waveform"),
             barWidth: 2,
             barHeight: 1, // the height of the wave
@@ -83,13 +88,28 @@ $(function() {
 
           wavesurfer.load("assets/audio/whale_song_1.mp3?test=1");
 
+          var showProgress = function(percent) {
+            progressDiv.style.display = "";
+            progressBar.style.width = percent + "%";
+          };
+
+          var hideProgress = function() {
+            progressDiv.style.display = "none";
+          };
+
+          wavesurfer.on("loading", showProgress);
+          wavesurfer.on("destroy", hideProgress);
+          wavesurfer.on("error", hideProgress);
+
           wavesurfer.on("ready", function() {
             wavesurfer.play();
+            hideProgress();
           });
         },
 
         close: function() {
           $("DIV#menu").show();
+          wavesurfer.playPause();
         }
       }
     });

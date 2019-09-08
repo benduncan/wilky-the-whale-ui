@@ -1,3 +1,18 @@
+div.content video {
+  height: 250px;
+  object-fit: none;
+}
+
+div#progress {
+}
+
+div.progress-bar {
+  background-color: #708dda;
+  height: 30px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
 .image-wrapper .flare {
   position: absolute;
   margin-left: auto;
