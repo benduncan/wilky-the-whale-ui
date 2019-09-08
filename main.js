@@ -14,7 +14,7 @@ $(function() {
 
   var icons = {
     whale: {
-      icon: iconBase + "location.png"
+      icon: iconBase + "/location.png"
     }
   };
 
