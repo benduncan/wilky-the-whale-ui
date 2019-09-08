@@ -14,7 +14,7 @@ $(function() {
 
   var icons = {
     whale: {
-      icon: iconBase + "/location.png"
+      icon: "https://benduncan.github.io/wilky-the-whale-ui/location.png"
     }
   };
 
